@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: 4%;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.logo {
+    height: 40%;
+}
+
+/* Estilo de la barra de navegación */
+.navigation-bar {
+    background-color: #f8f8f8;
+    /* Color de fondo */
+    padding: 10px 0;
+    /* Algo de padding vertical */
+    border-radius: 20%;
+}
+
+/* Estilo de la lista de navegación */
+.navigation-menu {
+    list-style: none;
+    /* Elimina los bullets de la lista */
+    padding: 0;
+    /* Elimina el padding por defecto */
+    margin: 0;
+    /* Elimina el margen por defecto */
+    display: flex;
+    /* Muestra los elementos de la lista en línea */
+    justify-content: center;
+    /* Centra los elementos de la lista */
+}
+
+/* Estilo de cada elemento de la lista */
+.navigation-menu li {
+    margin: 0 10px;
+    /* Espacio entre los elementos de la lista */
+}
+
+/* Estilo de los enlaces */
+.navigation-menu a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: rgb(0, 0, 0);
+    /* Color del texto de los enlaces */
+    font-weight: bold;
+    /* Hace el texto de los enlaces en negrita */
+}
+
+/* Estilo de los enlaces al pasar el mouse */
+.navigation-menu a:hover {
+    color: red;
+    /* Cambia el color al pasar el mouse */
+}
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: -1px;
+}
+
+input[type="text"] {
+    width: 100%;
+    /* O ajusta a tu preferencia */
+    padding: 10px;
+    /* Añade algo de espacio interno para que el texto no esté pegado a los bordes */
+    text-align: center;
+    /* Centra el texto */
+}
+
+.icon {
+    height: 50%;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 0;
+    /* Establece esto en 0 para eliminar espacios entre las imágenes */
+    background-color: lightgrey;
+    padding: 15px;
+    /* Elimina el padding para que no haya espacio alrededor de los bordes del contenedor */
+    gap: 15px;
+
+}
+
+.card {
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: center;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        justify-content: center;
+    }
+
+    .card {
+        overflow: hidden;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .card img {
+        max-width: 50%;
+        height: 50%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 2560px) {}
