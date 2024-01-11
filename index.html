@@ -1,95 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinterest</title>
     <link rel="stylesheet" href="estilos2.css">
-    <link rel="icon" href="img/Pinterest.jpeg">
+    <link rel="icon" href="img/Pinterest.png">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar">
-            <img src="img/Pinterest.jpeg" alt="Pinterest" class="logo">
+        <nav id="navbar-pinterest">
+            <a href="https://www.pinterest.com/" target="_blank">
+            <img src="img/Pinterest.png" alt="Pinterest" class="logo"></a>
+            
             <ul class="navigation-menu">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="explorar.html">Explorar</a></li>
-                <li><a href="crear.html">Crear</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Crear</a></li>
             </ul>
 
             <div class="search-bar">
-                <input type="text" placeholder="Buscar">
+                <input type="text" placeholder="Buscar" class="finder">
             </div>
-            <img src="img/Notificación.jpeg" alt="Notificación" class="icon">
-            <img src="img/Mensaje.jpeg" alt="Mensaje" class="icon">
-            <img src="img/perfil.jpeg" alt="foto de perfil" class="icon">
+            <div class="icon-container">
+                <div class="icon-wrapper">
+                    <img src="img/Notificación.jpeg" alt="Notificación" class="icon">
+                </div>
+                <div class="icon-wrapper">
+                    <img src="img/Mensaje.jpeg" alt="Mensaje" class="icon">
+                </div>
+                <div class="icon-wrapper">
+                    <img src="img/perfil.jpeg" alt="foto de perfil" class="icon">
+                </div>
+            </div>
+            
         </nav>
     </header>
 
-    <main class="container">
-        <div class="card">
+    <main id="content">
+        <div class="card-image">
             <img src="img/calamardo aesthetic.jpg" alt="calamardo aesthetic">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/calavera astronauta.jpg" alt="calavera astronauta">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/calavera con flores.jpg" alt="calavera con flores">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/calavera morada.jpg" alt="calavera morada">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/coraje el perro cobarde.jpg" alt="coraje el perro cobarde">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/corazón triste.jpg" alt="corazón triste">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/corte de cabello.jpg" alt="corte de cabello">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/cuerpo serpiente.jpg" alt="cuerpo serpiente">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/disco cuadrado.jpg" alt="disco cuadrado">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/espatula bob esponja.jpg" alt="espatula bob esponja">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/esqueleto de colores.jpg" alt="esqueleto de colores">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/estilo de ropa 2.jpg" alt="estilo de ropa">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/estilo de ropa.jpg" alt="estilo de ropa 2">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/flor bailando.jpg" alt="flor bailando">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/flor derretida.jpg" alt="flor derretida">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/gorra new era.jpg" alt="new era">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/patos.jpg" alt="patos">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/perro de globo.jpg" alt="perro de globo">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/plankton aplastado.jpg" alt="plankton aplastado">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
-        <div class="card">
+        <div class="card-image">
             <img src="img/rana fumando.jpg" alt="rana fumando">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/lacoste.jpg" alt="lacoste">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/mueble para cuarto.jpg" alt="mueble para cuarto">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/limited edition.jpg" alt="limited edition">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/gorra negra.jpg" alt="gorra negra">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/calavera con cuadro.jpg" alt="calavera con cuadro">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/flores rosas.jpg" alt="flores rosas">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/griego 2.jpg" alt="griego 2">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/ojo de colores.jpg" alt="ojo de colores">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/outfit.jpg" alt="outfit">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
+        </div>
+        <div class="card-image">
+            <img src="img/griego.jpg" alt="griego">
+            <div class="overlay-content"></div>
+            <button class="btn">Guardar</button>
+            <button class="btn2">Compartir</button>
         </div>
     </main>
-
 </body>
 
 </html>
